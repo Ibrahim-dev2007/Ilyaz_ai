@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#5b4bdb">
+  <meta name="description" content="Ilyaz AI — Learn Kannada. Play Smart. Pass with Confidence!">
+  <title>Ilyaz AI — Passing Package Game</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/quiz.css">
+  <link rel="stylesheet" href="css/admin.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Ilyaz AI home"><span class="brand-mark">I</span><span>Ilyaz<span class="brand-ai"> AI</span><small>LEARN · PLAY · GROW</small></span></a>
+      <button class="mobile-menu" id="mobileMenu" aria-label="Toggle menu">☰</button>
+      <nav id="mainNav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#quizzes" class="nav-link">Passing Package Game</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#support" class="nav-link">Support</a>
+        <button class="nav-admin" id="adminNav">Admin Login <span>↗</span></button>
+      </nav>
+    </header>
+
+    <main id="view" aria-live="polite">
+      <section class="hero page-section">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> YOUR FRIENDLY KANNADA QUIZ SPACE</div>
+          <h1>Learn Kannada.<br><span class="gradient-text">Play Smart.</span><br>Pass with Confidence!</h1>
+          <p>Turn practice into play. Explore interactive Kannada quizzes, hear every question, and learn one answer at a time.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#quizzes">Start Playing <span>→</span></a>
+            <a class="btn btn-soft" href="#about">Discover Ilyaz AI</a>
+          </div>
+          <div class="hero-note"><span class="avatar-stack"><i>ಕ</i><i>✓</i><i>★</i></span><span>Open to everyone · No student login needed</span></div>
+        </div>
+        <div class="hero-art" aria-label="Quiz illustration">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="floating-chip chip-top">ಕನ್ನಡ <span>♥</span></div>
+          <div class="quiz-illustration">
+            <div class="illus-top"><span class="tiny-dot"></span><span class="tiny-dot"></span><span class="tiny-dot"></span><span class="illus-label">QUICK QUIZ</span></div>
+            <div class="illus-question">ಇಂದು ನಿಮ್ಮ ಕಲಿಕೆಯ ದಿನ!</div>
+            <div class="illus-option correct"><b>✓</b> ಕಲಿಯಿರಿ</div>
+            <div class="illus-option"><b></b> ಆಟವಾಡಿ</div>
+            <div class="illus-option"><b></b> ಮುಂದುವರಿಯಿರಿ</div>
+            <div class="illus-progress"><span></span></div>
+          </div>
+          <div class="floating-chip chip-bottom">✦ Learn by playing</div>
+          <div class="sparkle sparkle-a">✦</div><div class="sparkle sparkle-b">✧</div>
+        </div>
+      </section>
+
+      <section class="trust-strip">
+        <div><strong>01</strong><span>Pick a quiz</span></div><div><strong>02</strong><span>Listen & answer</span></div><div><strong>03</strong><span>See your score</span></div>
+      </section>
+
+      <section class="section page-section" id="featured">
+        <div class="section-heading"><div><div class="eyebrow">READY WHEN YOU ARE</div><h2>Choose your <span class="gradient-text">challenge.</span></h2><p>Small steps. Better Kannada. A little fun along the way.</p></div><a href="#quizzes" class="text-link">All quizzes <span>→</span></a></div>
+        <div id="featuredQuizzes" class="quiz-grid"></div>
+      </section>
+
+      <section class="how-section page-section" id="about">
+        <div class="how-copy"><div class="eyebrow">A SIMPLE WAY TO LEARN</div><h2>Practice that feels<br><span class="gradient-text">like play.</span></h2><p>Ilyaz AI makes Kannada practice more engaging with clear questions, spoken prompts, instant feedback and a friendly score summary.</p><a class="btn btn-primary" href="#quizzes">Explore quizzes <span>→</span></a></div>
+        <div class="steps">
+          <article class="step-card"><span class="step-icon purple">⌕</span><div><b>Choose a package</b><p>Pick a quiz that matches what you want to practise.</p></div><small>01</small></article>
+          <article class="step-card"><span class="step-icon yellow">♫</span><div><b>Listen and answer</b><p>Hear Kannada questions and answer at your own pace.</p></div><small>02</small></article>
+          <article class="step-card"><span class="step-icon green">✧</span><div><b>Learn from feedback</b><p>See correct answers and understand your result.</p></div><small>03</small></article>
+        </div>
+      </section>
+
+      <section class="support-band page-section" id="support"><div><div class="eyebrow">KEEP THE LEARNING GOING</div><h2>Enjoying Ilyaz AI?</h2><p>If this little learning space helps you, you can support its growth.</p></div><button class="btn btn-light" id="supportBtn">Support this project <span>♡</span></button></section>
+    </main>
+
+    <footer class="footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">I</span><span>Ilyaz<span class="brand-ai"> AI</span><small>LEARN · PLAY · GROW</small></span></a><span>© 2026 Ilyaz AI · Developed by Ibrahim</span><span class="footer-tag">Made for curious minds ✦</span></footer>
+  </div>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="https://cdn.jsdelivr.net/npm/mammoth@1.8.0/mammoth.browser.min.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/voice.js"></script>
+  <script src="js/docx-importer.js"></script>
+  <script src="js/quiz-engine.js"></script>
+  <script src="js/admin.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

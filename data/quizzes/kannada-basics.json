@@ -1,0 +1,64 @@
+{
+  "id": "kannada-basics-public",
+  "title": "Kannada Basics",
+  "description": "A friendly starter quiz to practise simple Kannada words.",
+  "published": true,
+  "settings": {
+    "feedback": "immediate",
+    "shuffleQuestions": false,
+    "shuffleOptions": true,
+    "timer": 0,
+    "marks": 1,
+    "negative": 0
+  },
+  "questions": [
+    {
+      "id": "p1",
+      "text": "ಕೆಂಪು ಬಣ್ಣದ ಹಣ್ಣು ಯಾವುದು?",
+      "options": [
+        "ಸೇಬು",
+        "ಬಾಳೆಹಣ್ಣು",
+        "ದ್ರಾಕ್ಷಿ",
+        "ತೆಂಗಿನಕಾಯಿ"
+      ],
+      "correct": "ಸೇಬು",
+      "image": null
+    },
+    {
+      "id": "p2",
+      "text": "ನಮಸ್ಕಾರ ಎಂದರೆ ಏನು?",
+      "options": [
+        "ವಿದಾಯ",
+        "ಹಲೋ / ವಂದನೆ",
+        "ಧನ್ಯವಾದಗಳು",
+        "ಕ್ಷಮಿಸಿ"
+      ],
+      "correct": "ಹಲೋ / ವಂದನೆ",
+      "image": null
+    },
+    {
+      "id": "p3",
+      "text": "ಕನ್ನಡ ವರ್ಣಮಾಲೆಯಲ್ಲಿ ಸ್ವರಕ್ಕೆ ಉದಾಹರಣೆ ಯಾವುದು?",
+      "options": [
+        "ಕ",
+        "ಮ",
+        "ಅ",
+        "ತ"
+      ],
+      "correct": "ಅ",
+      "image": null
+    },
+    {
+      "id": "p4",
+      "text": "ಹಸುವಿನ ಮರಿ ಯಾವುದು?",
+      "options": [
+        "ಕುರಿಮರಿ",
+        "ಕರು",
+        "ನಾಯಿ ಮರಿ",
+        "ಮರಿ ಬೆಕ್ಕು"
+      ],
+      "correct": "ಕರು",
+      "image": null
+    }
+  ]
+}
